@@ -1,0 +1,134 @@
+html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+		box-sizing: border-box;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+	box-sizing: border-box;
+}
+.swiper-slide img{
+	height:100%;
+	width:100%;
+}
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:rgba(0,0,0,0.1);
+}
+.tap{
+	width:100%;
+	height:100px;
+}
+.tap ul{
+	width: 100%;
+	height:100%;
+}
+.tap ul li{
+	float: left;
+	width:271px;
+	height:100%;
+	font-size:50px;
+	list-style:none;
+	text-align: center;
+	line-height:100px;
+	border: 2px solid #000;
+	border-bottom:2px solid #000;
+	box-sizing: border-box;
+}
+.lb{
+	width: 100%;
+	position:relative;
+}
+.lb ul{
+	margin:0 auto;
+	width:100%;
+	position:relative;
+	overflow: hidden;
+	box-sizing: border-box;
+
+}
+.lb ul li{
+	height: 216px;
+	width:100%;
+	float: left;
+	border: none;
+	border-bottom:2px solid #000;
+	padding-bottom:10px;
+	box-sizing: border-box;
+}
+.lb ul li a{
+	color: #1B1B1B;
+	width:100%;
+}
+.lb ul li a .div1{
+	padding-top: 20px;
+	float:left;
+}
+.lb ul li a .div1 img{
+	padding-top: 10px;
+}
+.lb ul li a .div2{
+	padding-left: 30px;
+	float:left;
+	width:800px;
+}
+.lb ul li a .div2 h3{
+	padding-top: 7px;
+	font-size: 40px;
+	line-height: 1.5;
+	font-weight: normal;
+}
+.lb ul li a .div2 p{
+	margin-top:20px;
+	font-size: 30px;
+	line-height: 1.8;
+}
+.lb ul li a .div2 span{
+	background: url(../img/biao.png) no-repeat left center;
+	display: inline-block;
+	padding-left: 20px;
+	line-height: 1.8;
+	color: #444;
+	font-size: 12px;
+}
+.layui-tab-title .layui-this::after{
+	border: none;
+	height: 0px!important;
+}
+#test1 {
+	position: absolute;
+	top: 1835px;
+	left: 390px;
+}

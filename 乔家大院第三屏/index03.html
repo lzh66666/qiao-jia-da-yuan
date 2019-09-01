@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="xq.css">
+  <link rel="stylesheet" href="layui-v2.5.4/layui/css/layui.css">
+  <script src="layui-v2.5.4/layui/layui.all.js"></script>
+  <!-- Demo styles -->
+  
+</head>
+<body>
+  <!-- Swiper -->
+  <div class="swiper-container" style="height: 600px;" >
+     <div class="swiper-wrapper">  
+      <div class="swiper-slide"><img src="5.jpg"></div>
+      <div class="swiper-slide"><img src="6.jpg"></div>
+      <div class="swiper-slide"><img src="7.jpg"></div>
+      <div class="swiper-slide"><img src="8.jpg"></div>
+      <div class="swiper-slide"><img src="9.png"></div>
+      <div class="swiper-slide"><img src="1.png"></div>
+      <div class="swiper-slide"><img src="2.png"></div>
+      <div class="swiper-slide"><img src="7.jpg"></div>
+      <div class="swiper-slide"><img src="8.jpg"></div>
+      <div class="swiper-slide"><img src="9.png"></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      keyboard: {
+        enabled: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+
+  <div class="layui-tab layui-tab-card tap">
+    <ul class="layui-tab-title  tap">
+      <li>景区</li>
+      <li>娱乐</li>
+      <li>酒店</li>
+      <li>住宿</li>
+    </ul>
+    <div class="layui-tab-content lb" style="height: 100px;">
+      <div class="layui-tab-item layui-show"><div class="lb">
+        <ul>
+          <li>
+            <a >
+              <div class="div1">
+                <img src="1.jpg">
+              </div>
+              <div class="div2">
+                <h3 class="">平遥古城</h3>
+                <p class="fs12 ct4"> 平遥古城位于山西省中部，始建于周宣王时期，明洪武三年（1370年）扩建，距今已有2700多年的历史。</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a >
+              <div class="div1">
+                <img src="1.jpg">
+              </div>
+              <div class="div2">
+                <h3 class="">平遥古城</h3>
+                <p class="fs12 ct4"> 平遥古城位于山西省中部，始建于周宣王时期，明洪武三年（1370年）扩建，距今已有2700多年的历史。</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a >
+              <div class="div1">
+                <img src="1.jpg">
+              </div>
+              <div class="div2">
+                <h3 class="">“慈善北京”——　27°摄影集团与你</h3>
+                <p class="fs12 ct4"> “慈善你见证慈你见证慈你见证慈你见见证慈你见证慈你见证慈你见证慈北京”——27°间” 2017年9月1日,由首都</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a >
+              <div class="div1">
+                <img src="1.jpg">
+              </div>
+              <div class="div2">
+                <h3 class="">平遥古城</h3>
+                <p class="fs12 ct4"> 平遥古城位于山西省中部，始建于周宣王时期，明洪武三年（1370年）扩建，距今已有2700多年的历史。</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a >
+              <div class="div1">
+                <img src="1.jpg">
+              </div>
+              <div class="div2">
+                <h3 class="">平遥古城</h3>
+                <p class="fs12 ct4"> 平遥古城位于山西省中部，始建于周宣王时期，明洪武三年（1370年）扩建，距今已有2700多年的历史。</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div></div>
+      <div class="layui-tab-item">2<div class="lb">
+        <ul>
+          <li>
+            <a >
+              <div class="div1">
+                <img src="1.jpg">
+              </div>
+              <div class="div2">
+                <h3 class="">平遥古城</h3>
+                <p class="fs12 ct4"> 平遥古城位于山西省中部，始建于周宣王时期，明洪武三年（1370年）扩建，距今已有2700多年的历史。</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a >
+              <div class="div1">
+                <img src="1.jpg">
+              </div>
+              <div class="div2">
+                <h3 class="">平遥古城</h3>
+                <p class="fs12 ct4"> 平遥古城位于山西省中部，始建于周宣王时期，明洪武三年（1370年）扩建，距今已有2700多年的历史。</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a >
+              <div class="div1">
+                <img src="1.jpg">
+              </div>
+              <div class="div2">
+                <h3 class="">“慈善北京”——　27°摄影集团与你</h3>
+                <p class="fs12 ct4"> “慈善你见证慈你见证慈你见证慈你见见证慈你见证慈你见证慈你见证慈北京”——27°间” 2017年9月1日,由首都</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a >
+              <div class="div1">
+                <img src="1.jpg">
+              </div>
+              <div class="div2">
+                <h3 class="">平遥古城</h3>
+                <p class="fs12 ct4"> 平遥古城位于山西省中部，始建于周宣王时期，明洪武三年（1370年）扩建，距今已有2700多年的历史。</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a >
+              <div class="div1">
+                <img src="1.jpg">
+              </div>
+              <div class="div2">
+                <h3 class="">平遥古城</h3>
+                <p class="fs12 ct4"> 平遥古城位于山西省中部，始建于周宣王时期，明洪武三年（1370年）扩建，距今已有2700多年的历史。</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div></div>
+      <div class="layui-tab-item">3<div class="lb">
+        <ul>
+          <li>
+            <a >
+              <div class="div1">
+                <img src="1.jpg">
+              </div>
+              <div class="div2">
+                <h3 class="">平遥古城</h3>
+                <p class="fs12 ct4"> 平遥古城位于山西省中部，始建于周宣王时期，明洪武三年（1370年）扩建，距今已有2700多年的历史。</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a >
+              <div class="div1">
+                <img src="1.jpg">
+              </div>
+              <div class="div2">
+                <h3 class="">平遥古城</h3>
+                <p class="fs12 ct4"> 平遥古城位于山西省中部，始建于周宣王时期，明洪武三年（1370年）扩建，距今已有2700多年的历史。</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a >
+              <div class="div1">
+                <img src="1.jpg">
+              </div>
+              <div class="div2">
+                <h3 class="">“慈善北京”——　27°摄影集团与你</h3>
+                <p class="fs12 ct4"> “慈善你见证慈你见证慈你见证慈你见见证慈你见证慈你见证慈你见证慈北京”——27°间” 2017年9月1日,由首都</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a >
+              <div class="div1">
+                <img src="1.jpg">
+              </div>
+              <div class="div2">
+                <h3 class="">平遥古城</h3>
+                <p class="fs12 ct4"> 平遥古城位于山西省中部，始建于周宣王时期，明洪武三年（1370年）扩建，距今已有2700多年的历史。</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a >
+              <div class="div1">
+                <img src="1.jpg">
+              </div>
+              <div class="div2">
+                <h3 class="">平遥古城</h3>
+                <p class="fs12 ct4"> 平遥古城位于山西省中部，始建于周宣王时期，明洪武三年（1370年）扩建，距今已有2700多年的历史。</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div></div>
+      <div class="layui-tab-item">4<div class="lb">
+        <ul>
+          <li>
+            <a >
+              <div class="div1">
+                <img src="1.jpg">
+              </div>
+              <div class="div2">
+                <h3 class="">平遥古城</h3>
+                <p class="fs12 ct4"> 平遥古城位于山西省中部，始建于周宣王时期，明洪武三年（1370年）扩建，距今已有2700多年的历史。</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a >
+              <div class="div1">
+                <img src="1.jpg">
+              </div>
+              <div class="div2">
+                <h3 class="">平遥古城</h3>
+                <p class="fs12 ct4"> 平遥古城位于山西省中部，始建于周宣王时期，明洪武三年（1370年）扩建，距今已有2700多年的历史。</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a >
+              <div class="div1">
+                <img src="1.jpg">
+              </div>
+              <div class="div2">
+                <h3 class="">“慈善北京”——　27°摄影集团与你</h3>
+                <p class="fs12 ct4"> “慈善你见证慈你见证慈你见证慈你见见证慈你见证慈你见证慈你见证慈北京”——27°间” 2017年9月1日,由首都</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a >
+              <div class="div1">
+                <img src="1.jpg">
+              </div>
+              <div class="div2">
+                <h3 class="">平遥古城</h3>
+                <p class="fs12 ct4"> 平遥古城位于山西省中部，始建于周宣王时期，明洪武三年（1370年）扩建，距今已有2700多年的历史。</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a >
+              <div class="div1">
+                <img src="1.jpg">
+              </div>
+              <div class="div2">
+                <h3 class="">平遥古城</h3>
+                <p class="fs12 ct4"> 平遥古城位于山西省中部，始建于周宣王时期，明洪武三年（1370年）扩建，距今已有2700多年的历史。</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div></div>
+
+    </div>
+  </div>
+  <div id="test1"></div>
+  <script>
+    layui.use('laypage', function(){
+      var laypage = layui.laypage;
+
+      //执行一个laypage实例
+      laypage.render({
+        elem: 'test1' //注意，这里的 test1 是 ID，不用加 # 号
+        ,count: 50 //数据总数，从服务端得到
+      });
+    });
+  </script>
+
+<!--  <div class="tap">-->
+<!--    <ul>-->
+<!--      <li style="background: rgba(0,0,0,0.8);color:#fff;">景区</li>-->
+<!--      <li>娱乐</li>-->
+<!--      <li>酒店</li>-->
+<!--      <li>住宿</li>-->
+<!--    </ul>-->
+<!--  </div>-->
+<!--  <div class="lb">-->
+<!--    <ul>-->
+<!--      <li> -->
+<!--        <a >-->
+<!--        <div class="div1">-->
+<!--          <img src="1.jpg">-->
+<!--        </div>-->
+<!--        <div class="div2">-->
+<!--          <h3 class="">平遥古城</h3>-->
+<!--          <p class="fs12 ct4"> 平遥古城位于山西省中部，始建于周宣王时期，明洪武三年（1370年）扩建，距今已有2700多年的历史。</p>-->
+<!--        </div>-->
+<!--        </a>      -->
+<!--      </li>-->
+<!--      <li> -->
+<!--        <a >-->
+<!--        <div class="div1">-->
+<!--          <img src="1.jpg">-->
+<!--        </div>-->
+<!--        <div class="div2">-->
+<!--          <h3 class="">平遥古城</h3>-->
+<!--          <p class="fs12 ct4"> 平遥古城位于山西省中部，始建于周宣王时期，明洪武三年（1370年）扩建，距今已有2700多年的历史。</p>-->
+<!--        </div>-->
+<!--        </a>      -->
+<!--      </li>-->
+<!--      <li> -->
+<!--        <a >-->
+<!--        <div class="div1">-->
+<!--          <img src="1.jpg">-->
+<!--        </div>-->
+<!--        <div class="div2">-->
+<!--          <h3 class="">“慈善北京”——　27°摄影集团与你</h3>-->
+<!--          <p class="fs12 ct4"> “慈善你见证慈你见证慈你见证慈你见见证慈你见证慈你见证慈你见证慈北京”——27°间” 2017年9月1日,由首都</p>-->
+<!--        </div>-->
+<!--        </a>      -->
+<!--      </li>-->
+<!--      <li> -->
+<!--        <a >-->
+<!--        <div class="div1">-->
+<!--          <img src="1.jpg">-->
+<!--        </div>-->
+<!--        <div class="div2">-->
+<!--          <h3 class="">平遥古城</h3>-->
+<!--          <p class="fs12 ct4"> 平遥古城位于山西省中部，始建于周宣王时期，明洪武三年（1370年）扩建，距今已有2700多年的历史。</p>-->
+<!--        </div>-->
+<!--        </a>      -->
+<!--      </li>-->
+<!--      <li> -->
+<!--        <a >-->
+<!--        <div class="div1">-->
+<!--          <img src="1.jpg">-->
+<!--        </div>-->
+<!--        <div class="div2">-->
+<!--          <h3 class="">平遥古城</h3>-->
+<!--          <p class="fs12 ct4"> 平遥古城位于山西省中部，始建于周宣王时期，明洪武三年（1370年）扩建，距今已有2700多年的历史。</p>-->
+<!--        </div>-->
+<!--        </a>      -->
+<!--      </li>-->
+<!--    </ul>-->
+<!--  </div>-->
+</body>
+</html>
