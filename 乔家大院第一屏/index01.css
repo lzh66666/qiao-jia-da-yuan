@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#firstPage {
+    position: relative;
+    height: 1920px;
+    width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#test1 img {
+    height: 1920px;
+    width: 1080px;
+}
+#linka {
+    position: absolute;
+    z-index: 99999;
+    display: block;
+    font-size: 70px;
+    top: 1429px;
+    color: #f0f0f0;
+    font-weight: bold;
+    left: 355px;
+    text-shadow:
+            1px 1px 0 #CCC,
+            2px 2px 0 #CCC, /* end of 2 level deep grey shadow */
+            3px 3px 0 #444,
+            4px 4px 0 #444,
+            5px 5px 0 #444,
+            6px 6px 0 #444; /* end of 4 level deep dark shadow */
+    transform: scale(1.1,1.5);
+}
+
+.swiper-pagination-bullet{
+    height: 35px;
+    width: 35px;
+    background: #f0f0f0;
+}
+div.yanse {
+    background-size: 60px 60px;
+    color: #fff9ec!important;
+}
+.swiper-button-next,.swiper-button-prev {
+    height: 60px;
+    color: #fff9ec!important;
+    width: 60px;
+}
